@@ -11,5 +11,7 @@ function changeBG() {
     }
 
     cont.style.backgroundColor = hx;
-    hxValue.innerHTML = hx; 
+    hxValue.innerHTML = hx;
+
+    console.log(`Current background: ${hx}`);
 }
