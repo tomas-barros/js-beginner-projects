@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #ecf0f1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 12px 16px;
+    font-size: 17pt;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+}
